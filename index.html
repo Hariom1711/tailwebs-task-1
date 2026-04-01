@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eGov Foundation — Digital Transformation for Public Service</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  <!-- DM Sans Font -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="site-header sticky-top">
+    <div class="top-bar d-none d-lg-flex justify-content-end align-items-center px-4 py-1">
+      <a href="#" class="top-link me-3">Events</a>
+      <a href="#" class="top-link me-3">Contact us</a>
+      <a href="#" class="top-link lang-toggle"><i class="bi bi-globe2 me-1"></i> ENG</a>
+    </div>
+    <nav class="navbar navbar-expand-lg main-nav px-3 px-lg-5">
+      <a class="navbar-brand" href="#">
+        <img src="https://placehold.co/110x36/1a56a0/ffffff?text=eGOV" alt="eGov Logo" class="logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Areas of work</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Public Health</a></li>
+              <li><a class="dropdown-item" href="#">Public Finance</a></li>
+              <li><a class="dropdown-item" href="#">Local Governance</a></li>
+              <li><a class="dropdown-item" href="#">Water & Sanitation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Products & Solutions</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">DIGIT Platform</a></li>
+              <li><a class="dropdown-item" href="#">eHospital</a></li>
+              <li><a class="dropdown-item" href="#">iFix</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Our Platform</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Ecosystem</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+          <li class="nav-item ms-lg-2">
+            <a href="#" class="btn btn-search"><i class="bi bi-search"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-pattern"></div>
+      <div class="container-xl">
+        <div class="row align-items-center min-vh-hero">
+          <div class="col-lg-6 hero-content" data-animate="fade-up">
+            <p class="hero-eyebrow">20 years of digital transformation in public service delivery</p>
+            <h1 class="hero-headline">
+              It's <span class="highlight">possible.</span>
+            </h1>
+            <p class="hero-body">
+              Catalysts. Ecosystem enablers. Problem Solvers. At eGov, we're driven by the power of open digital infrastructure and ecosystems to enable governments deliver accessible, inclusive and transparent services to every citizen.
+            </p>
+            <div class="hero-actions d-flex flex-wrap gap-3 mt-4">
+              <a href="#" class="btn btn-primary-egov">Our Approach</a>
+              <a href="#" class="btn btn-outline-egov">Our Impact</a>
+            </div>
+          </div>
+          <div class="col-lg-6 hero-image-col d-none d-lg-flex justify-content-end" data-animate="fade-left">
+            <div class="hero-img-wrapper">
+              <img src="https://placehold.co/540x420/e8f0fe/1a56a0?text=Citizens+%26+Services" alt="Citizens using eGov services" class="hero-img" />
+              <div class="hero-floating-badge">
+                <span class="badge-number">1B+</span>
+                <span class="badge-label">Lives Impacted</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wave Divider -->
+      <div class="hero-wave">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f0f4ff"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===================== STATS SECTION ===================== -->
+    <section class="stats-section" id="stats">
+      <div class="stats-dark-band">
+        <div class="container-xl">
+          <div class="row align-items-center py-5">
+            <div class="col-12 text-center mb-4">
+              <div class="big-number" data-animate="count-up">1,000,000,100+</div>
+              <p class="big-number-label">Citizens availing public services through eGov's Digital Public Goods (DPG)</p>
+            </div>
+            <div class="col-6 col-md-3 text-center stat-item" data-animate="fade-up">
+              <div class="stat-value">1.1 Billion+</div>
+              <div class="stat-label">Public services delivered</div>
+            </div>
+            <div class="col-6 col-md-3 text-center stat-item" data-animate="fade-up" style="--delay: 0.1s">
+              <div class="stat-value">50+</div>
+              <div class="stat-label">Partners from technology, governments and NGOs</div>
+            </div>
+            <div class="col-6 col-md-3 text-center stat-item" data-animate="fade-up" style="--delay: 0.2s">
+              <div class="stat-value">20+</div>
+              <div class="stat-label">Years of digital transformation</div>
+            </div>
+            <div class="col-6 col-md-3 text-center stat-item" data-animate="fade-up" style="--delay: 0.3s">
+              <div class="stat-value">30+</div>
+              <div class="stat-label">States & ULBs impacted</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BOLD APPROACHES (PRODUCT/FEATURE) ===================== -->
+    <section class="features-section" id="features">
+      <div class="container-xl py-section">
+        <div class="row g-5 align-items-start">
+          <!-- Left: Problem Areas -->
+          <div class="col-lg-5" data-animate="fade-right">
+            <p class="section-label">Focus Areas</p>
+            <h2 class="section-title">Big problems need <strong>bold approaches</strong></h2>
+            <p class="section-body">We tackle the most systemic challenges in public service delivery through digital infrastructure, open source technology, and deep ecosystem partnerships.</p>
+            <div class="problem-pills mt-4">
+              <button class="pill-btn active"><i class="bi bi-heart-pulse me-2"></i>Public Health</button>
+              <button class="pill-btn"><i class="bi bi-bank me-2"></i>Public Finance</button>
+              <button class="pill-btn"><i class="bi bi-building me-2"></i>Local Governance</button>
+              <button class="pill-btn"><i class="bi bi-droplet me-2"></i>Water & Sanitation</button>
+            </div>
+          </div>
+
+          <!-- Right: Feature Cards -->
+          <div class="col-lg-7" data-animate="fade-left">
+            <div class="row g-4">
+              <div class="col-sm-6">
+                <div class="feature-card card-blue">
+                  <div class="fc-icon"><i class="bi bi-hospital"></i></div>
+                  <div class="fc-number">210+</div>
+                  <p class="fc-desc">eHospital Live with HWC across India</p>
+                  <a href="#" class="fc-link">Read More <i class="bi bi-arrow-right-short"></i></a>
+                  <img src="https://placehold.co/200x120/dbeafe/1a56a0?text=Health+Tech" alt="Health" class="fc-img mt-3" />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card card-teal">
+                  <div class="fc-icon"><i class="bi bi-people"></i></div>
+                  <div class="fc-number">2 Bn</div>
+                  <p class="fc-desc">Transactions processed through iFix platform annually</p>
+                  <a href="#" class="fc-link">Read More <i class="bi bi-arrow-right-short"></i></a>
+                  <img src="https://placehold.co/200x120/ccfbf1/0d9488?text=Finance+Platform" alt="Finance" class="fc-img mt-3" />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card card-indigo">
+                  <div class="fc-icon"><i class="bi bi-house-check"></i></div>
+                  <div class="fc-number">4500+</div>
+                  <p class="fc-desc">Urban Local Bodies using DIGIT platform services</p>
+                  <a href="#" class="fc-link">Read More <i class="bi bi-arrow-right-short"></i></a>
+                  <img src="https://placehold.co/200x120/e0e7ff/4338ca?text=Local+Governance" alt="Governance" class="fc-img mt-3" />
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="feature-card card-green">
+                  <div class="fc-icon"><i class="bi bi-droplet-half"></i></div>
+                  <div class="fc-number">800+</div>
+                  <p class="fc-desc">Villages with improved water access through digital systems</p>
+                  <a href="#" class="fc-link">Read More <i class="bi bi-arrow-right-short"></i></a>
+                  <img src="https://placehold.co/200x120/dcfce7/16a34a?text=Water+Sanitation" alt="Water" class="fc-img mt-3" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SUSTAINING CHANGE ===================== -->
+    <section class="sustaining-section" id="sustaining">
+      <div class="container-xl py-section">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-7" data-animate="fade-up">
+            <p class="section-label">Our Philosophy</p>
+            <h2 class="section-title">20 years of reimagining for citizens and <span class="text-highlight">sustaining change</span></h2>
+            <p class="section-body mt-3">Technology is powerful but is only one piece of the puzzle, when it comes to enhancing the quality of life for every citizen. To have sustainable impact at scale, the collective energy of local networks to solve social problems needs to be tapped into.</p>
+          </div>
+        </div>
+
+        <div class="row g-4" data-animate="fade-up">
+          <div class="col-md-4">
+            <div class="story-card">
+              <div class="story-img-wrap">
+                <img src="https://placehold.co/380x220/f1f5f9/334155?text=Success+Story+1" alt="Story 1" />
+                <span class="story-tag">Public Health</span>
+              </div>
+              <div class="story-body">
+                <p>"Digitalising processes to improve access to government services"</p>
+                <a href="#" class="story-link">Watch Story <i class="bi bi-play-circle ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="story-card">
+              <div class="story-img-wrap">
+                <img src="https://placehold.co/380x220/f1f5f9/334155?text=Success+Story+2" alt="Story 2" />
+                <span class="story-tag">Governance</span>
+              </div>
+              <div class="story-body">
+                <p>"Creating systems that work for citizens without the barriers"</p>
+                <a href="#" class="story-link">Watch Story <i class="bi bi-play-circle ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="story-card">
+              <div class="story-img-wrap">
+                <img src="https://placehold.co/380x220/f1f5f9/334155?text=Success+Story+3" alt="Story 3" />
+                <span class="story-tag">Finance</span>
+              </div>
+              <div class="story-body">
+                <p>"Building transparent financial accountability for every rupee spent"</p>
+                <a href="#" class="story-link">Watch Story <i class="bi bi-play-circle ms-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5" data-animate="fade-up">
+          <a href="#" class="btn btn-outline-egov">About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DIGIT PLATFORM (CTA) ===================== -->
+    <section class="digit-section" id="digit">
+      <div class="digit-overlay"></div>
+      <div class="container-xl py-section position-relative">
+        <div class="row align-items-center">
+          <div class="col-lg-7" data-animate="fade-right">
+            <div class="digit-logo mb-3">
+              <span class="digit-grid-icon">⊞</span>
+              <span class="digit-brand-text">DIGIT</span>
+              <span class="digit-sub">by eGov Foundation</span>
+            </div>
+            <p class="digit-tagline">Our open source</p>
+            <h2 class="digit-title">technology-for-good platform</h2>
+            <p class="digit-body mt-3">
+              DIGIT, short for Digital Infrastructure for Governance, Inclusion and Transformation is eGov's open source platform with reusable building blocks and shared data registries that can be used to build solutions in multiple sectors.
+            </p>
+            <a href="#" class="btn btn-primary-egov mt-4">Explore the platform <i class="bi bi-arrow-right-short ms-1"></i></a>
+          </div>
+          <div class="col-lg-5 d-none d-lg-flex justify-content-center" data-animate="fade-left">
+            <div class="digit-visual">
+              <img src="https://placehold.co/400x480/1a1a2e/ffffff?text=DIGIT+Platform" alt="DIGIT Platform" class="digit-phone-img" />
+              <div class="digit-badge digit-badge-1"><i class="bi bi-shield-check"></i> Open Source</div>
+              <div class="digit-badge digit-badge-2"><i class="bi bi-diagram-3"></i> Modular</div>
+              <div class="digit-badge digit-badge-3"><i class="bi bi-globe"></i> Scalable</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LATEST AT EGOV ===================== -->
+    <section class="latest-section" id="latest">
+      <div class="container-xl py-section">
+        <div class="row align-items-center mb-4">
+          <div class="col">
+            <h2 class="section-title">Latest at <span class="brand-text">eGov</span></h2>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="btn btn-sm btn-outline-egov">See All <i class="bi bi-arrow-right-short"></i></a>
+          </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="latest-tabs mb-4" data-animate="fade-up">
+          <button class="ltab active">What's New</button>
+          <button class="ltab">Articles</button>
+          <button class="ltab">Whitepapers</button>
+          <button class="ltab">Case Studies</button>
+          <button class="ltab">Strategy Papers</button>
+          <button class="ltab">News & Media</button>
+          <button class="ltab">Videos</button>
+          <button class="ltab">Newsletter</button>
+        </div>
+
+        <!-- Cards -->
+        <div class="row g-4" data-animate="fade-up">
+          <div class="col-md-4">
+            <div class="latest-card">
+              <div class="lc-img-wrap">
+                <img src="https://placehold.co/380x200/e0e7ff/4338ca?text=Urban+Digital" alt="Urban Digital Transformation" />
+                <span class="lc-category">Case Study</span>
+              </div>
+              <div class="lc-body">
+                <h5 class="lc-title">State-led Urban Digital Transformation</h5>
+                <div class="lc-meta">
+                  <span><i class="bi bi-person me-1"></i>Mahesh P Joseph</span>
+                  <span><i class="bi bi-calendar3 me-1"></i>10 Mar 2026</span>
+                </div>
+                <div class="lc-tags">
+                  <span class="lc-tag">Odisha</span>
+                  <span class="lc-tag">Kerala</span>
+                  <span class="lc-tag">Local Governance</span>
+                </div>
+                <a href="#" class="lc-readmore">Read More <i class="bi bi-arrow-right-short"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="latest-card">
+              <div class="lc-img-wrap">
+                <img src="https://placehold.co/380x200/fef9c3/b45309?text=DOT+Newsletter" alt="DOT Newsletter" />
+                <span class="lc-category">Newsletter</span>
+              </div>
+              <div class="lc-body">
+                <h5 class="lc-title">DOT — A DIGIT Quarterly Newsletter</h5>
+                <div class="lc-meta">
+                  <span><i class="bi bi-people me-1"></i>eGov Foundation</span>
+                  <span><i class="bi bi-calendar3 me-1"></i>25 Jan 2026</span>
+                </div>
+                <div class="lc-tags">
+                  <span class="lc-tag">Platform</span>
+                  <span class="lc-tag">DIGIT</span>
+                </div>
+                <a href="#" class="lc-readmore">Read More <i class="bi bi-arrow-right-short"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="latest-card">
+              <div class="lc-img-wrap">
+                <img src="https://placehold.co/380x200/fce7f3/9d174d?text=Impact+Stories" alt="DOT Impact Stories" />
+                <span class="lc-category">Strategy Paper</span>
+              </div>
+              <div class="lc-body">
+                <h5 class="lc-title">DOT 2025 | Top Stories of Partnerships & Impact</h5>
+                <div class="lc-meta">
+                  <span><i class="bi bi-people me-1"></i>eGov Foundation</span>
+                  <span><i class="bi bi-calendar3 me-1"></i>31 Dec 2025</span>
+                </div>
+                <div class="lc-tags">
+                  <span class="lc-tag">Impact</span>
+                  <span class="lc-tag">2025</span>
+                </div>
+                <a href="#" class="lc-readmore">Read More <i class="bi bi-arrow-right-short"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SUPPORTERS (CTA BAND) ===================== -->
+    <section class="supporters-section" id="supporters">
+      <div class="container-xl py-5">
+        <h3 class="text-center supporters-title mb-5" data-animate="fade-up">Our Supporters</h3>
+        <div class="supporters-logos d-flex flex-wrap justify-content-center align-items-center gap-4 gap-md-5" data-animate="fade-up">
+          <div class="supporter-logo-wrap"><img src="https://placehold.co/120x50/f8fafc/334155?text=Omidyar" alt="Omidyar" /></div>
+          <div class="supporter-logo-wrap"><img src="https://placehold.co/140x50/f8fafc/334155?text=Bill+Melinda+Gates" alt="Gates Foundation" /></div>
+          <div class="supporter-logo-wrap"><img src="https://placehold.co/120x50/f8fafc/334155?text=Tata+Trusts" alt="Tata Trusts" /></div>
+          <div class="supporter-logo-wrap"><img src="https://placehold.co/120x50/f8fafc/334155?text=The+Global+Fund" alt="The Global Fund" /></div>
+          <div class="supporter-logo-wrap"><img src="https://placehold.co/140x50/f8fafc/334155?text=National+Health+Mission" alt="National Health Mission" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NEWSLETTER CTA ===================== -->
+    <section class="newsletter-section" id="newsletter">
+      <div class="container-xl">
+        <div class="newsletter-card" data-animate="fade-up">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-6">
+              <p class="nl-eyebrow">Stay Connected</p>
+              <h3 class="nl-title">Subscribe to DOT — our monthly newsletter</h3>
+              <p class="nl-body">Receive regular updates of our monthly newsletter DOT – in your inbox.</p>
+            </div>
+            <div class="col-lg-6">
+              <form class="nl-form" onsubmit="return false;">
+                <div class="input-group nl-input-group">
+                  <input type="email" class="form-control nl-input" placeholder="Enter your email address" />
+                  <button class="btn btn-primary-egov nl-btn" type="submit">Subscribe <i class="bi bi-arrow-right-short"></i></button>
+                </div>
+                <p class="nl-note mt-2"><i class="bi bi-shield-lock me-1"></i> We respect your privacy. Unsubscribe anytime.</p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" id="footer">
+    <div class="container-xl">
+      <div class="row g-5 footer-top py-5">
+        <div class="col-lg-4">
+          <img src="https://placehold.co/110x36/ffffff/ffffff?text=eGOV" alt="eGov" class="footer-logo mb-3" />
+          <p class="footer-tagline">Catalysing digital transformation in public service delivery at speed & scale.</p>
+          <div class="footer-socials mt-4 d-flex gap-3">
+            <a href="#" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-icon" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h6 class="footer-heading">Useful Links</h6>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Impact</a></li>
+            <li><a href="#">DIGIT Sandbox</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h6 class="footer-heading">Company</h6>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#">Our People</a></li>
+            <li><a href="#">Financials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h6 class="footer-heading">Subscribe Now</h6>
+          <p class="footer-sub-text">Receive regular updates of our monthly newsletter DOT – in your inbox.</p>
+          <div class="input-group footer-subscribe mt-3">
+            <input type="email" class="form-control" placeholder="Your email" />
+            <button class="btn btn-subscribe" type="button"><i class="bi bi-send-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom py-3 d-flex flex-wrap justify-content-between align-items-center">
+        <p class="mb-0">© 2026, eGov. All Rights Reserved.</p>
+        <div class="d-flex gap-4">
+          <a href="#" class="footer-policy-link">Privacy Policy</a>
+          <a href="#" class="footer-policy-link">Terms and Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
